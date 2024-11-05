@@ -11,20 +11,35 @@ This repository documents the design, build, and setup process for a custom CNC 
   * Design a machine capable of handling a range of materials with variable spindle speeds and multiple cutting tool configurations.
 
 * #### Modular Workflow:
-  *Streamline G-code operations with reusable macros, allowing for efficient setup and execution of custom parts.
+  * Streamline G-code operations with reusable macros, allowing for efficient setup and execution of custom parts.
 
 ### Key Components ###
-Frame and Rails: Built from 2020 and 2040 aluminum extrusions, providing stability and flexibility for future upgrades.
-Stepper Motors: Nema 17 motors with TB6600 drivers ensure controlled and reliable movement.
-Lead Screws: T12 lead screws with 2mm pitch for precise linear travel on X and Y axes.
-Spindle: Variable speed palm router adapted as a spindle for versatile material compatibility.
-Control: Klipper firmware on a RUMBA board, with Mainsail/Moonraker for remote management and real-time monitoring.
+* #### Frame and Rails:
+  * Built from 2020 and 2040 aluminum extrusions, providing stability and flexibility for future upgrades.
+
+* #### Stepper Motors:
+  * Nema 17 motors with TB6600 drivers ensure controlled and reliable movement.
+
+* #### Lead Screws:
+  * T12 lead screws with 2mm pitch for precise linear travel on X and Y axes.
+
+* #### Spindle:
+  * Variable speed palm router adapted as a spindle for versatile material compatibility.
+
+* #### Control:
+  * Klipper firmware on a RUMBA board, with Mainsail/Moonraker for remote management and real-time monitoring.
 
 ### Features ###
-Macro-Based G-code Execution: Separate setup, tool change, and cutting commands for repeatable and consistent workflows.
-Adjustable Offsets: Customized workspace offset macros allow for precise positioning without relying on traditional G54 commands, enhancing compatibility with Klipper.
-Flexible Power Control: Spindle power is managed through Klipper’s SET_PIN command, enabling real-time adjustments and safety stops.
-Detailed Documentation: Step-by-step documentation for the design, build, and setup process is available for others interested in DIY CNC machines.
+* #### Macro-Based G-code Execution:
+  * Separate setup, tool change, and cutting commands for repeatable and consistent workflows.
+
+* #### Adjustable Offsets:
+  * Customized workspace offset macros allow for precise positioning without relying on traditional G54 commands, enhancing compatibility with Klipper.
+
+* #### Flexible Power Control: Spindle power is managed through Klipper’s SET_PIN command, enabling real-time adjustments and safety stops.
+
+* #### Detailed Documentation:
+  * Step-by-step documentation for the design, build, and setup process is available for others interested in DIY CNC machines.
 
 ## Repository Structure ##
 /docs: Documentation for setup, wiring, and component selection.
