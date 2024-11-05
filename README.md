@@ -1,5 +1,5 @@
 # SimpleCNC #
-This repository documents the design, build, and setup process for a custom CNC router built with a focus on flexibility, affordability, and functionality for crafting various materials, including MDF, particle board, and aluminum. The CNC router is designed with modular G-code workflows, customizable macros, and tool-specific configurations for optimized and repeatable cutting paths.
+This repository documents the design, build, and setup process for a custom CNC router built with a focus on flexibility, affordability, and functionality for crafting various materials. The CNC router is designed with modular G-code workflows, customizable macros, and tool-specific configurations for optimized and repeatable cutting paths.
 
 ## Project Overview ##
 
