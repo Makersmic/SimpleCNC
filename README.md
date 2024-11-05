@@ -4,9 +4,9 @@ This repository documents the design, build, and setup process for a custom CNC 
 ## Project Overview ##
 
 ### Goals ###
-Cost-Effective Build: Construct a robust CNC router on a limited monthly budget by sourcing affordable components and salvaging parts.
-Precision and Flexibility: Design a machine capable of handling a range of materials with variable spindle speeds and multiple cutting tool configurations.
-Modular Workflow: Streamline G-code operations with reusable macros, allowing for efficient setup and execution of custom parts.
+* #### Cost-Effective Build: #### Construct a robust CNC router on a limited monthly budget by sourcing affordable components and salvaging parts.
+* #### Precision and Flexibility: #### Design a machine capable of handling a range of materials with variable spindle speeds and multiple cutting tool configurations.
+* #### Modular Workflow: #### Streamline G-code operations with reusable macros, allowing for efficient setup and execution of custom parts.
 
 ### Key Components ###
 Frame and Rails: Built from 2020 and 2040 aluminum extrusions, providing stability and flexibility for future upgrades.
